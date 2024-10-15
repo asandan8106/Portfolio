@@ -1,0 +1,232 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-image{
+    filter: blur(50px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navigation Bar */
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+} */
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list li a {
+    color: white;
+    padding: 5px 15px;
+}
+
+.nav-list li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Home Section */
+.home-section {
+    height: 100vh;
+    background: url('C:\Asanda Ngwenya\Portfolio\images\picture.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section .content {
+    color: white;
+    text-align: center;
+}
+
+.home-section h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.home-section h1 span {
+    color: #ffcc00;
+}
+
+.home-section p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+/* styling for Button:email */
+.button-email{
+    text-decoration:none;
+     color:rgb(255, 255, 255);
+     background:rgb(219, 198, 175);
+     border-radius: 10px;
+     margin: 25px;
+     padding:10px 18px;
+     display:inline-block;
+     text-shadow: rgb(173, 132, 132);
+     align-items: center;
+     justify-content: center;
+}
+.home-section .btn:hover {
+    background-color: #e6b800;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    background-color:#bbb0b0;
+    color: #0c0b0b;
+}
+
+.about-section h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.skills-experience {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills, .experience, .education {
+    width: 30%;
+}
+
+.skills h2, .experience h2, .education h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+
+.skills p, .experience p, .education p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/* styling for contact */
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    background-color:rgb(167, 155, 140);
+}
+
+.container{
+    color: #0c0b0b;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.contact-info {
+    width: 40%;
+}
+
+.contact-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    font-size: 20px;
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    background-color:#ffcc00;
+}
+
+.contact-form {
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    border-color: #ffcc00;
+}
+
+.contact-form .btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #6b5b95;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background-color: #ffcc00;
+}
